@@ -62,6 +62,7 @@
 }
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 .info {
   display: flex;

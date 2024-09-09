@@ -1,19 +1,36 @@
+import { useState } from "react";
 import styles from "./ProjectsStyle.module.css";
-import viberr from "../../assets/viberr.png";
 import ProjectCard from "../../Common/ProjectCard";
-import freshBurger from "../../assets/fresh-burger.png"
-import hipsster from '../../assets/hipsster.png'
-import fitlift from '../../assets/fitlift.png'
+import projects from "../../project";
 
 const Projects = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  // Limit the number of projects displayed based on the showMore state
+  const displayedProjects = showMore ? projects : projects.slice(0, 8);
+
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-        <ProjectCard src={viberr} link='https:/github.com'  h3='Viberr' p='Streaming App'/>
-        <ProjectCard src={freshBurger} link='https:/github.com'  h3='Fresh Burger' p='Burger Restaurant'/>
-        <ProjectCard src={hipsster} link='https:/github.com'  h3='Hipsster' p='Glasses Shop'/>
-        <ProjectCard src={fitlift} link='https:/github.com'  h3='FitLift' p='Fitness App'/>
+        {displayedProjects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            src={project.image}
+            link={project.github}
+            h3={project.name}
+            p={project.description}
+          />
+        ))}
+      </div>
+      {/* Button to toggle the showMore state */}
+      <div>
+        <button
+          className={styles.showMoreButton}
+          onClick={() => setShowMore(!showMore)}
+        >
+          {showMore ? "Show Less" : "Show More"}
+        </button>
       </div>
     </section>
   );
