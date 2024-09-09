@@ -2,6 +2,7 @@ import Hero from './sections/Hero/Hero'
 
 import './App.css'
 import Projects from './sections/Project/Projects'
+import Skills from './sections/Skill/Skills'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <>
     <Hero/>
     <Projects/>
+    <Skills/>
     </>
   )
 }
