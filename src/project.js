@@ -6,8 +6,8 @@ const projects = [
     name: "KnTsT",
     description: "Football Clothes",
     image: "../src/assets/ProjectsImg/kk.png",
-    github: "https://github.com/Kheng-Uzamaki/linkedin-clone",
-    demo: "https://linkedin-clone-alpha-gray.vercel.app/",
+    github: "https://github.com/Kheng-Uzamaki/kNTsT-Project",
+    demo: "https://test-project-nu-six.vercel.app/",
   },
   {
     id: 2,

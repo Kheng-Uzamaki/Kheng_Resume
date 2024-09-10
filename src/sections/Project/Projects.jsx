@@ -20,6 +20,7 @@ const Projects = () => {
             link={project.github}
             h3={project.name}
             p={project.description}
+            demoLink={project.demo}
           />
         ))}
       </div>

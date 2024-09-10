@@ -1,26 +1,72 @@
+/* Container styling */
 .container {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 0 40px;
-
-  img {
-    max-width: 250px;
-    align-self: center;
-    background-color: var(--project-card-bg);
-    border-radius: 20px;
-  }
-  a {
-    width: fit-content;
-    text-decoration: none;
-    color: #222;
-    transition: transform 200ms ease-in-out;
-  }
-  a:hover {
-    transform: scale(1.05);
-  }
 }
 
+/* Project Card styling */
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Image styling */
+.projectCard img {
+  max-width: 250px;
+  background-color: var(--project-card-bg);
+  border-radius: 20px;
+}
+
+/* Higher specificity for links */
+.projectCard a {
+  text-decoration: none;
+  color: #222;
+  transition: transform 200ms ease-in-out;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.projectCard a:hover {
+  transform: scale(1.05);
+}
+
+/* GitHub icon in the heading */
+.projectCard h3 span img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+/* Demo button styling */
+.projectCard .demoButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.projectCard .demoButton:hover {
+  transform: scale(1.05);
+}
+
+.projectCard .demoButton:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Projects container styling */
 .projectsContainer {
   display: flex;
   flex-direction: column;
@@ -28,31 +74,32 @@
   align-items: center;
 }
 
-/* Show More button styles */
+/* Show More button styling */
 .showMoreButton {
   margin-top: 40px;
   cursor: pointer;
   background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .showMoreButton:hover {
   transform: scale(1.05);
 }
+
 .showMoreButton:active {
   transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-/* Media query */
+/* Responsive layout for larger screens */
 @media (min-width: 800px) {
   .projectsContainer {
     flex-direction: row;
