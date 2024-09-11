@@ -13,13 +13,33 @@
   align-items: center;
   text-align: center;
 }
+.projectCardDark img {
+  background-color: hsl(0, 1%, 65%);
+}
+/* ProjectsStyle.module.css */
+.projectCard {
+  /* Your existing styles */
+}
 
-/* Image styling */
-.projectCard img {
-  max-width: 250px;
+.lightThemeImg {
+ max-width: 250px;
   background-color: var(--project-card-bg);
   border-radius: 20px;
 }
+
+.darkThemeImg {
+   max-width: 250px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+/* Image styling */
+/* .projectCard img {
+  max-width: 250px;
+  background-color: var(--project-card-bg);
+  border-radius: 20px;
+} */
+
 
 /* Higher specificity for links */
 .projectCard a {

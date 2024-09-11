@@ -7,7 +7,8 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+// import CV from "../../assets/cv.pdf";
+import Kheng_CV from "../../assets/Kheng_Resume.pdf"
 import { useTheme } from "../../Common/ThemeContext";
 
 const Hero = () => {
@@ -56,7 +57,7 @@ const Hero = () => {
           With a passion for developing modern React web app for commercial
           business.
         </p>
-        <a href={CV} download>
+        <a href={Kheng_CV} download>
           <button className="hover">Resume</button>
         </a>
       </div>
