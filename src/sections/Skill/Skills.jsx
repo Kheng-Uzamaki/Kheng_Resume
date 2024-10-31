@@ -23,13 +23,14 @@ const Skills = () => {
         <SkillList src={checkMarkIcon} skill="ExpressJs" />
         <SkillList src={checkMarkIcon} skill="PHP" />
         <SkillList src={checkMarkIcon} skill="MySQL" />
+        <SkillList src={checkMarkIcon} skill="MongoDB" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="C#" />
         <SkillList src={checkMarkIcon} skill="Laravel" />
-        <SkillList src={checkMarkIcon} skill="Taiwind" />
+        <SkillList src={checkMarkIcon} skill="Tailwind" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
       </div>
       <hr />
@@ -41,7 +42,7 @@ const Skills = () => {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Springboot" />
+        <SkillList src={checkMarkIcon} skill="SpringBoot" />
         <SkillList src={checkMarkIcon} skill="WindowOs" />
         <SkillList src={checkMarkIcon} skill="CentOs/Ubuntu" />
         <SkillList src={checkMarkIcon} skill="Window Server" />

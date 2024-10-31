@@ -54,7 +54,7 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web app for commercial
+          With a passion for developing modern web app for commercial
           business.
         </p>
         <a href={Kheng_CV} download>

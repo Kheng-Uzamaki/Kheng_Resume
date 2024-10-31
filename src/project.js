@@ -11,11 +11,11 @@ const projects = [
   },
   {
     id: 2,
-    name: "Netflix",
-    description: "Netflix Landpage",
-    image: "../src/assets/ProjectsImg/netflix.png",
-    github: "https://github.com/Kheng-Uzamaki/netflix-landpage",
-    demo: "https://netflix-landpage.vercel.app/",
+    name: "House Marketplace",
+    description: "React with Firebase",
+    image: "../src/assets/ProjectsImg/house.png",
+    github: "https://github.com/Kheng-Uzamaki/house-marketplace",
+    demo: "https://houseandroom-marketplace.vercel.app/",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
   {
     id: 4,
     name: "ToDo-List",
-    description: "ToDo-Lis App",
+    description: "ToDo-List App",
     image: "../src/assets/ProjectsImg/todo.png",
     github: "https://github.com/Kheng-Uzamaki/Kheng-ToDo-List",
     demo: "https://kheng-to-do-list.vercel.app/",
