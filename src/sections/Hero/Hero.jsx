@@ -10,6 +10,7 @@ import linkedinDark from "../../assets/linkedin-dark.svg";
 // import CV from "../../assets/cv.pdf";
 import Kheng_CV from "../../assets/Kheng_Resume.pdf"
 import { useTheme } from "../../Common/ThemeContext";
+import k_logo from '../../../public/k_logo.ico'
 
 const Hero = () => {
   const { theme, toggleTheme } = useTheme();
@@ -40,9 +41,9 @@ const Hero = () => {
         </h1>
         <h2>Web Developer</h2>
         <span>
-          {/* <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="twitter Icon" />
-          </a> */}
+          <a href="/" >
+            <img src={k_logo} alt="Kheng Logo" />
+          </a>
           <a href="https://github.com/Kheng-Uzamaki" target="_blank">
             <img src={githubIcon} alt="github Icon" />
           </a>
