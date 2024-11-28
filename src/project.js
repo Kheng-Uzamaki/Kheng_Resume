@@ -11,10 +11,19 @@ import ageImg from "../src/assets/ProjectsImg/age.png";
 import linkedImg from "../src/assets/ProjectsImg/linked.png";
 import fbImg from "../src/assets/ProjectsImg/fb.png";
 import ytImg from "../src/assets/ProjectsImg/yt.png";
+import khengShop from '../src/assets/ProjectsImg/Shop.png'
 
 const projects = [
   {
     id: 1,
+    name: "khengShop",
+    description: "E-commerce Mern Stack",
+    image: khengShop,
+    github: "https://github.com/Kheng-Uzamaki/online-shop",
+    demo: "https://online-shop-8goi.onrender.com/",
+  },
+  {
+    id: 2,
     name: "KnTsT",
     description: "Football Clothes",
     image: kkImg,
@@ -22,7 +31,7 @@ const projects = [
     demo: "https://test-project-nu-six.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "House Marketplace",
     description: "React with Firebase",
     image: houseImg,
@@ -30,7 +39,7 @@ const projects = [
     demo: "https://houseandroom-marketplace.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather",
     description: "Weather API App",
     image: weatherImg,
@@ -38,7 +47,7 @@ const projects = [
     demo: "https://kheng-weather.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "ToDo-List",
     description: "ToDo-List App",
     image: todoImg,
@@ -46,7 +55,7 @@ const projects = [
     demo: "https://kheng-to-do-list.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Quiz App",
     description: "Programming Quiz",
     image: quizImg,
@@ -54,7 +63,7 @@ const projects = [
     demo: "https://qiuz-app-one.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "QR Generator",
     description: "QR Generator App",
     image: qrImg,
@@ -62,7 +71,7 @@ const projects = [
     demo: "https://qiuz-app-one.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Calculator",
     description: "Calculator Clone App",
     image: calculatorImg,
@@ -70,7 +79,7 @@ const projects = [
     demo: "https://calculator-app-zeta-steel.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Note App",
     description: "Noted Clone App",
     image: noteImg,
@@ -78,7 +87,7 @@ const projects = [
     demo: "https://note-app-rose-nine.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Age Calculator",
     description: "Age Calculator App",
     image: ageImg,
@@ -86,7 +95,7 @@ const projects = [
     demo: "https://age-calculator-five-theta.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     name: "Linkedin",
     description: "Linkedin Clone App",
     image: linkedImg,
@@ -94,7 +103,7 @@ const projects = [
     demo: "https://linkedin-clone-alpha-gray.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "Social Book",
     description: "Facebook Clone App",
     image: fbImg,
@@ -102,7 +111,7 @@ const projects = [
     demo: "https://social-clone-sage.vercel.app/",
   },
   {
-    id: 12,
+    id: 13,
     name: "V-Tube",
     description: "Youtube Clone App",
     image: ytImg,
